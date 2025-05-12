@@ -81,3 +81,18 @@ footer {
   font-size: 1em;
   border-top: 3px dashed #d69aa0;
 }
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+.product {
+  flex: 1 1 150px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
