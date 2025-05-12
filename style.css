@@ -1,11 +1,23 @@
 /* Importing handwritten fonts from Google Fonts */
 body {
+  background-image: url('images/gingham-pink.png');
+  background-repeat: repeat;
+  background-size: auto; /* or try 150px if you want smaller tiles */
+  background-position: top left;
+  background-attachment: fixed;
+  font-family: 'Gloria Hallelujah', cursive;
   margin: 0;
   padding: 0;
-  font-family: 'Indie Flower', cursive;
-  background-color: #fff8f0;
-  color: #4b3f2f;
 }
+
+
+#body {
+#  margin: 0;
+#  padding: 0;
+#  font-family: 'Indie Flower', cursive;
+#  background-color: #fff8f0;
+#  color: #4b3f2f;
+#}
 
 header {
   background-color: #ffe0e9;
